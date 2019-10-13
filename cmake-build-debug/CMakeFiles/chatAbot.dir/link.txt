@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\chatAbot.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\chatAbot.dir/objects.a @CMakeFiles\chatAbot.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\chatAbot.dir/objects.a -Wl,--no-whole-archive  -o chatAbot.exe -Wl,--out-implib,libchatAbot.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\chatAbot.dir\linklibs.rsp
